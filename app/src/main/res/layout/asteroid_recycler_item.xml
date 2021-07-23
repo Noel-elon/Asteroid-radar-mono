@@ -22,6 +22,7 @@
             android:layout_marginEnd="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/date_tv"
             app:layout_constraintEnd_toEndOf="parent"
+            app:asteroidContentDesc="@{asteroid.potentiallyHazardous}"
             app:layout_constraintTop_toTopOf="@+id/name_tv"
             app:statusIcon="@{asteroid.potentiallyHazardous}" />
 
